@@ -6,17 +6,14 @@
 
 MacroPad is a native macOS utility for recording, editing, saving, triggering,
 and replaying keyboard and mouse macros. It is built with SwiftUI and AppKit and
-runs entirely on the local Mac.
+runs entirely on the local Mac. 
 
-> The initial GitHub release is source-only. It does not provide a prebuilt,
-> signed, or notarized application bundle.
+> I built it for the Single-Button Assistant (SBA) in World of Warcraft (WOW) retail server. I've tried to press and hold a hotkey to continuously activate SBA, but it's challenging for me while moving my melee characters around during a combat. I also worked with Mouse Macro software compatible with my mouse on Windows, in which I press a button of mouse to activate SBA and keep it functioning until I press it another time to stop, but none of them work properly on MacOS (esp. MacOS 12 Monterey which I'm still working with). I've tried several other Apps, incl. Keyboard Masstro, BetterTouchTool, but they are too complicated only for WOW SBA. 
 
 ## Features
 
 - Record mouse button presses/releases, scrolling, keyboard presses/releases,
   and modifier changes.
-- Intentionally exclude continuous mouse movement and drag events from
-  recording.
 - Edit event delays, click coordinates, mouse buttons, keys, modifiers, and
   scroll deltas.
 - Enable, disable, or delete individual events.
@@ -27,8 +24,6 @@ runs entirely on the local Mac.
   loop, or click to toggle looping.
 - Keep recording, playback, and triggers available from the macOS menu bar when
   the main window is hidden.
-- Resize all three workbench panes by dragging their dividers; pane widths are
-  restored on the next launch.
 
 ## Requirements
 
